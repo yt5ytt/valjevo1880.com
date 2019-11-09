@@ -4,9 +4,6 @@
 *{
     margin: 0;
     padding: 0;
-/*            transition: all 3s ease-in-out;
-       -moz-transition: all 3s ease-in-out;
-    -webkit-transition: all 3s ease-in-out;*/
   }
 
  body{
@@ -39,14 +36,23 @@
  }
 
  ul.nav{
-   /*display: none;*/
    position: absolute;
-
+   top: 3em;
+   left: -100%;
+   transition: left 0.5s linear;
+   border: 1px solid white;
+   z-index: 2000;
+   background-color: rgba(0, 0, 0, .9);
+   height: calc(100% - 3.5em);
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
  }
 
- ul.responsive{
+ ul.responsiveNav{
    display: block;
+   transition: left 0.5s linear;
    width: 80%;
+   left: 0;
  }
 
  ul{
@@ -57,7 +63,7 @@
 
  li{
    display: inline-block;
-   border-top: 1px dotted black;
+   border-top: 1px dotted white;
    width: 100%;
    text-align: center;
  }
@@ -67,7 +73,7 @@ li:first-child{
  }
 
  li a{
-   color: black;
+   color: white;
    text-decoration: none;
    display: block;
    font-weight: bolder;
