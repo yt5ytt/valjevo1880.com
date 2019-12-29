@@ -1,0 +1,40 @@
+/* аnimacija slide-in */
+
+@-moz-keyframes slide-in {
+	0% {
+		opacity: 0;
+		transform: translateX(-150px);
+		
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@-webkit-keyframes slide-in {
+	0% {
+		opacity: 0;
+		transform: translateX(-150px);
+		
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slide-in{
+	0% {
+		opacity: 0;
+		transform: translateX(-150px);
+		
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

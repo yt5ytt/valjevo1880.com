@@ -1,0 +1,533 @@
+*{
+	padding: 0;
+	margin: 0;
+	transition: all .5s ease;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+body{
+	border-top: 5px solid blue;
+}
+
+#login{
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 250px;
+}
+
+#login section{
+	line-height: 3em;
+	text-align: center;
+}
+
+#login label{
+	float: left;
+	width: 45%;
+	font-size: 1.5em;
+	text-align: right;
+	line-height: 2em;
+	margin-right: 1%;
+}
+
+#login input{
+	text-align: left;
+	line-height: 2em;
+	font-size: 1.2em;
+	text-indent: 5px;
+}
+
+#login .submit{
+	text-align: center;
+	margin-top: 1%;
+}
+
+#login .button{
+	text-align: center;
+	background-color: blue;
+	color: white;
+	font-size: 1.5em;
+	text-indent: 0;
+	padding: 0 10%;
+	margin-left: 0;
+}
+
+#login a{
+	padding: 1% 10%;
+	text-decoration: none;
+}
+
+#login .button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 30px black;
+}
+
+#login .pogresno{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+header{
+	color: blue;
+	background-color: white;
+	padding: 1%;
+	overflow: hidden;
+}
+
+menu{
+	text-align: right;
+	margin-right: 1%;
+	font-size: .9em;
+	margin-right: 1%;
+}
+
+menu ul{
+	list-style-type: none;
+}
+
+menu li{
+	display: inline-block;
+	text-align: center;
+	line-height: 2em;
+}
+
+menu li a{
+	display: block;
+	text-decoration: none;
+	color: blue;
+	line-height: 3em;
+	padding: 0 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+menu li a.logout{
+	color: red;
+}
+
+menu li.izlog:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
+menu li:hover{
+	background-color: blue;
+	cursor: pointer;
+}
+
+menu li:hover  > a{
+	color: white;
+}
+
+.image{
+	background-color: blue;
+}
+
+.image .probaNaslov{
+	color: white;
+	text-align: center;
+	padding: 1% 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px white;
+	font-style: italic;
+}
+
+.probaNaslov h1{
+	
+}
+
+#main{
+	background-color: white;
+}
+
+#main .glavno{
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+#main .podmeni{
+	margin-top: 1%;
+	line-height: 3em;
+	text-align: center;
+}
+
+#main .podmeni ul{
+	list-style-type: none;
+}
+
+#main .podmeni li{
+	display: inline-block;	
+}
+
+#main .podmeni li a{
+	display: block;
+	text-decoration: none;
+	color: blue;
+	text-transform: uppercase;
+	padding: 0 15%;
+	font-weight: bold;
+}
+
+#main .podmeni li a:hover{
+	cursor: pointer;
+	background-color: blue;
+	color: white;
+}
+
+#dodavanje{
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+}
+
+#dodavanje h1{
+	font-size: 1.5em;
+}
+
+#dodavanje .forma{
+	width: 100%;
+	margin-top: 2%;
+}
+
+#dodavanje section{
+	width: 50%;
+	line-height: 2em;
+	float: left;
+	margin: 1% 0;
+}
+
+#dodavanje label{
+	float: left;
+	width: 45%;
+	font-size: 1.2em;
+	text-align: right;
+	line-height: 2em;
+	margin-right: 1%;	
+}
+
+#dodavanje input{
+	text-align: left;
+	line-height: 2em;
+	font-size: 1.2em;
+	text-indent: 5px;
+	width: 50%;
+}
+
+#dodavanje .opcija{
+	text-align: left;
+	line-height: 2em;
+	font-size: 1.2em;
+	text-indent: 5px;
+	width: 50%;
+}
+
+#dodavanje .opcija option{
+	height: 2em;
+}
+
+#dodavanje .submit{
+	width: 100%;
+}
+
+#dodavanje .sadrzaj{
+	width: 100%;
+}
+
+#dodavanje textarea{
+	width: 100%;
+	height: 300px;
+	font-size: 1.2em;
+}
+
+#dodavanje .submit{
+	text-align: center;
+	margin-top: 1%;
+}
+
+#dodavanje .button{
+	text-align: center;
+	background-color: blue;
+	color: white;
+	font-size: 1.5em;
+	text-indent: 0;
+	padding: 0 10%;
+	margin-left: 0;
+}
+
+#dodavanje .button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 30px black;
+}
+
+.imageLogout{
+	margin: 25% auto;
+}
+
+#dodavanje .vesti{
+	font-size: 1.2em;
+	text-align: left;
+	overflow: hidden;
+	line-height: 2em;
+	margin-top: .5%;
+}
+
+#dodavanje .spisakVesti{
+	margin-top: 2%;
+}
+
+#dodavanje .redniBroj{
+	width: 5%;
+	float: left;
+}
+
+#dodavanje .datum{
+	width: 15%;
+	float: left;
+}
+
+#dodavanje .naslov{
+	width: 55%;
+	float: left;
+}
+
+#dodavanje .izmeni{
+	width: 12%;
+	float: right;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .9em;
+}
+
+#dodavanje .izmeni a{
+	text-decoration: none;
+	display: block;
+	color: blue;
+}
+
+#dodavanje .izmeni:hover{
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+ #dodavanje .izmeni:hover > a{
+	 color: white;
+ }
+
+#dodavanje .obrisi{
+	width: 12%;
+	float: right;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .9em;
+	margin-left: .5%;
+}
+
+#dodavanje .obrisi a{
+	text-decoration: none;
+	display: block;
+	color: red;
+}
+
+#dodavanje .obrisi:hover{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+#dodavanje .obrisi:hover > a{
+	color: white;
+}
+
+#dodavanje .takmicenje{
+	width: 100%;
+	text-align: center;
+}
+
+#dodavanje .takmicenje label{
+	width: 25%;
+}
+
+#dodavanje .takmicenje input{
+	width: 70%;
+}
+
+#dodavanje input.datum{
+	width: 10%;
+	margin-left: 1%;
+}
+
+#dodavanje .naslovTakmicenja{
+	width: 55%;
+	float: left;
+	color: red;
+}
+
+#dodavanje .sekcija{
+	width: 100%;
+	overflow: hidden;
+}
+
+#dodavanje .takmicar{
+	line-height: 2em;
+	float: left;
+	width: 24%;
+	margin-right: 1%;
+}
+
+#dodavanje .takmicar label{
+	width: 10%;
+	text-align: left;
+	float: left;
+}
+
+#dodavanje .takmicar input{
+	width: 60%;
+	float: right;
+}
+
+#dodavanje .takmicar select{
+	width: 60%;
+	font-size: 1.5em;
+	float: right;
+}
+
+#dodavanje .takmicar option{
+	line-height: 2em;
+}
+
+#dodavanje .ceoTakmicar{
+	line-height: 2em;
+	float: left;
+	width: 48%;
+	margin-right: 1%;
+}
+
+#dodavanje .ceoTakmicar label{
+	width: 30%;
+	text-align: left;
+	float: left;
+}
+
+#dodavanje .ceoTakmicar input{
+	width: 60%;
+	float: right;
+}
+
+#dodavanje .takmicarOstatak{
+	width: 99%;
+	float: left;
+	margin-right: 1%;
+}
+
+#dodavanje .takmicarOstatak label{
+	width: 30%;
+	text-align: left;
+	float: left;
+}
+
+#dodavanje .takmicarOstatak input{
+	width: 60%;
+	float: right;
+}
+
+#dodavanje .takmicarOstatak select{
+	width: 60%;
+	font-size: 1.5em;
+	float: right;
+}
+
+#dodavanje .takmicarOstatak option{
+	line-height: 2em;
+}
+
+#jednaKategorija{
+	width: 100%;
+	overflow: hidden;
+	margin: 2.5%;
+	text-align: left;
+}
+
+#jednaKategorija h1{
+	text-decoration: underline;
+}
+
+#jednaKategorija section {
+	width: 100%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#jednaKategorija section.zaglavlje{
+	border-bottom: 1px dotted black;
+}
+
+#jednaKategorija .redniBrojzaglavlje{
+	width: 3%;
+	float: left;
+}
+
+#jednaKategorija .takmicarzaglavlje{
+	width: 20%;
+	float: left;
+}
+
+#jednaKategorija .zaglavlje{
+	text-align: center;
+}
+
+#jednaKategorija .redniBroj{
+	width: 3%;
+	float: left;
+	text-align: left;
+}
+
+#jednaKategorija .samtakmicar{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+
+#jednaKategorija .godiste{
+	width: 7%;
+	float: left;
+}
+
+#jednaKategorija .oruzje{
+	width: 20%;
+	float: left;
+}
+
+#jednaKategorija .mesto{
+	width: 20%;
+	float: left;
+}
+
+#jednaKategorija .serija{
+	width: 3%;
+	float: left;
+}
+
+#jednaKategorija .ukupno{
+	width: 7%;
+	float: left;
+}
+
+#dodavanje .rezultat{
+	width: 100%;
+}
+
+#dodavanje .rezSerija{
+	width: 12%;
+	float: left;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+#dodavanje .rezSerija input{
+	text-align: center;
+}

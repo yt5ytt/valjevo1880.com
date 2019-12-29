@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+	transition: all .5s ease;
+	font-family: 'Merriweather Sans', sans-serif;	
+}
+
+#wrapper{
+	width: 95%;
+	margin: 1% auto;
+}
+
+#wrapper .naslov{
+	width: 100%;
+	background: linear-gradient(darkred, red, darkred);
+	color: white;
+	padding: 2% 0;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+#wrapper .naslov h1{
+	text-transform: uppercase;
+	font-size: 2.5em;
+}
+
+#wrapper .mestoDatum{
+	width: 100%;
+	background: linear-gradient(grey, white, grey);
+	color: black;
+	overflow: hidden;
+	padding: 1% 0;
+	font-size: 1.5em;
+}
+
+#wrapper .mesto{
+	float: left;
+	margin-left: 1%;
+}
+
+#wrapper .datum{
+	float: right;
+	margin-right: 1%;
+}
+
+#wrapper .naslovKategorija{
+	width: 100%;
+	margin-top: 2%;
+	background: linear-gradient(grey, white, grey);
+	overflow: hidden;
+	padding: 1% 0;
+	font-size: 1.5em;
+}
+
+#wrapper .kategorija{
+	float: left;
+	margin-left: 1%;
+	font-weight: bolder;
+}
+
+#wrapper .oruzje{
+	float: right;
+	margin-right: 1%;
+}
+
+#wrapper .takmicar{
+	width: 100%;
+	background: linear-gradient(grey, MidnightBlue, MidnightBlue, MidnightBlue, grey);
+	margin-top: 2px;
+	overflow: hidden;
+	font-size: 1.3em;
+	line-height: 2.2em;
+	animation: slide-in 1s;
+}
+
+#wrapper .takmicar .rb{
+	width: 2em;
+	background: linear-gradient(orange, yellow, orange);
+	text-align: center;
+	float: left;
+	line-height: 2.2em;
+}
+
+#wrapper .takmicar .ime{
+	width: 20%;
+	color: white;
+	text-align: left;
+	padding-left: 1%;
+	float: left;
+	line-height: 2.2em;
+}
+
+#wrapper .takmicar .godiste{
+	width: 5%;
+	color: white;
+	text-align: center;
+	float: left;
+	line-height: 2.2em;
+}
+
+#wrapper .takmicar .klub{
+	width: 18%;
+	color: white;
+	text-align: center;
+	float: left;
+	line-height: 2.2em;
+	font-size: 0.7em;
+}
+
+#wrapper .takmicar .mesto{
+	width: 15%;
+	color: white;
+	text-align: center;
+	float: left;
+	line-height: 2.2em;
+	font-size: 0.7em;
+}
+
+#wrapper .takmicar .serija{
+	width: 5%;
+	color: white;
+	text-align: center;
+	float: left;
+	line-height: 2.2em;
+}
+
+#wrapper .takmicar .ukupno{
+	width: 5%;
+	color: white;
+	text-align: center;
+	float: right;
+	line-height: 2.2em;
+}
+
+@media screen and (max-width:768px){
+	
+	#wrapper .naslov h1{
+		font-size: 2em;
+	}
+
+	#wrapper .mestoDatum{
+		font-size: 1.2em;
+	}
+	
+	#wrapper .naslovKategorija{
+		font-size: 1.2em;
+	}
+	
+	#wrapper .takmicar{
+		font-size: 1em;
+		line-height: 2em;
+	}
+
+	#wrapper .takmicar .rb{
+		line-height: 2em;
+	}
+
+	#wrapper .takmicar .ime{
+		width: 45%;
+		line-height: 2em;
+	}
+
+	#wrapper .takmicar .godiste{
+		display: none;
+	}
+
+	#wrapper .takmicar .klub{
+		display: none;
+	}
+
+	#wrapper .takmicar .mesto{
+		display: none;
+	}
+
+	#wrapper .takmicar .serija{
+		width: 6%;
+		line-height: 2em;
+	}
+
+	#wrapper .takmicar .ukupno{
+		width: 7%;
+		line-height: 2em;
+		margin-right: 1px;
+	}	
+}

@@ -1,0 +1,39 @@
+[02-Feb-2018 21:35:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 148
+[02-Feb-2018 21:35:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 148
+[02-Feb-2018 21:35:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 148
+[02-Feb-2018 21:36:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 151
+[02-Feb-2018 21:38:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 149
+[02-Feb-2018 21:38:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 149
+[02-Feb-2018 21:38:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 149
+[02-Feb-2018 21:38:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 149
+[02-Feb-2018 21:38:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/hasa0218/public_html/index.php on line 149
+[30-Apr-2019 12:40:21 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/hasa0218/public_html/db/db_kontakt.php on line 2
+[30-Apr-2019 12:40:21 UTC] PHP Stack trace:
+[30-Apr-2019 12:40:21 UTC] PHP   1. {main}() /home/hasa0218/public_html/index.php:0
+[30-Apr-2019 12:40:21 UTC] PHP   2. include() /home/hasa0218/public_html/index.php:3
+[30-Apr-2019 12:40:21 UTC] PHP   3. mysqli->__construct() /home/hasa0218/public_html/db/db_kontakt.php:2
+[30-Apr-2019 12:40:21 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/hasa0218/public_html/db/db_kontakt.php on line 3
+[30-Apr-2019 12:40:21 UTC] PHP Stack trace:
+[30-Apr-2019 12:40:21 UTC] PHP   1. {main}() /home/hasa0218/public_html/index.php:0
+[30-Apr-2019 12:40:21 UTC] PHP   2. include() /home/hasa0218/public_html/index.php:3
+[30-Apr-2019 12:40:21 UTC] PHP   3. mysqli->__construct() /home/hasa0218/public_html/db/db_kontakt.php:3
+[09-Sep-2019 03:34:17 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/hasa0218/public_html/db/db_kontakt.php on line 2
+[09-Sep-2019 03:34:17 UTC] PHP Stack trace:
+[09-Sep-2019 03:34:17 UTC] PHP   1. {main}() /home/hasa0218/public_html/index.php:0
+[09-Sep-2019 03:34:17 UTC] PHP   2. include() /home/hasa0218/public_html/index.php:3
+[09-Sep-2019 03:34:17 UTC] PHP   3. mysqli->__construct() /home/hasa0218/public_html/db/db_kontakt.php:2
+[09-Sep-2019 03:34:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hasa0218/public_html/db/db_kontakt.php on line 2
+[09-Sep-2019 03:34:17 UTC] PHP Stack trace:
+[09-Sep-2019 03:34:17 UTC] PHP   1. {main}() /home/hasa0218/public_html/index.php:0
+[09-Sep-2019 03:34:17 UTC] PHP   2. include() /home/hasa0218/public_html/index.php:3
+[09-Sep-2019 03:34:17 UTC] PHP   3. mysqli->__construct() /home/hasa0218/public_html/db/db_kontakt.php:2
+[09-Sep-2019 03:34:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hasa0218/public_html/db/db_kontakt.php on line 3
+[09-Sep-2019 03:34:17 UTC] PHP Stack trace:
+[09-Sep-2019 03:34:17 UTC] PHP   1. {main}() /home/hasa0218/public_html/index.php:0
+[09-Sep-2019 03:34:17 UTC] PHP   2. include() /home/hasa0218/public_html/index.php:3
+[09-Sep-2019 03:34:17 UTC] PHP   3. mysqli->__construct() /home/hasa0218/public_html/db/db_kontakt.php:3
+[09-Sep-2019 03:34:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hasa0218/public_html/db/db_kontakt.php on line 3
+[09-Sep-2019 03:34:17 UTC] PHP Stack trace:
+[09-Sep-2019 03:34:17 UTC] PHP   1. {main}() /home/hasa0218/public_html/index.php:0
+[09-Sep-2019 03:34:17 UTC] PHP   2. include() /home/hasa0218/public_html/index.php:3
+[09-Sep-2019 03:34:17 UTC] PHP   3. mysqli->__construct() /home/hasa0218/public_html/db/db_kontakt.php:3
