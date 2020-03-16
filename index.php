@@ -49,6 +49,13 @@
 						<div class="miniWrapper">
 
 							<h1>
+								OBAVEŠTENJE!!!<br />
+								SVE AKTIVNOSTI KLUBA SU<br />
+								OTKAZANE DO DALJNJEG<br />
+								Uprava SK "Valjevo 1880"
+							</h1>
+
+							<h1>
 								DOBRO DOŠLI NA ZVANIČNU PREZENTACIJU<br />
 								STRELJAČKOG KLUBA "VALJEVO 1880"
 							</h1>
@@ -73,7 +80,7 @@
 								<b>RADNO VREME</b><br />Svakog radnog dana<br />od 17:00 - 21:00 časova<br />sem ponedeljkom.
 							</p>
 
-							<h2>
+							<!---<h2>
 								DRŽAVNO PRVENSTVO U VALJEVU
 							</h2>
 
@@ -92,7 +99,7 @@
 
 							<p>
 								Na državnom PS očekujemo oko 500 učesnika iz cele Srbije, predstavnike Streljačkog Saveza Srbije i Ministarstva omladine i sporta.
-							</p>
+							</p>--->
 
 						</div><!--kraj diva .miniWrapper-->
 
